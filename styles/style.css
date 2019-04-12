@@ -1,0 +1,42 @@
+/*
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+    background: $background;
+}
+*/
+header, .contact {
+  height: 100vh;
+  color: #050508;
+  background: lawngreen;
+}
+
+header button, .contact button {
+  background: #7d09a0;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button:after, .contact button:after {
+  content: "aaaaa";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  /*
+        use mixin
+        @include flexCenter(row, blue);
+    */
+  background: salmon;
+  width: 80%;
+}
+/*# sourceMappingURL=style.css.map */

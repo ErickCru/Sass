@@ -1,0 +1,21 @@
+@import './variables';
+@import './header';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact  {
+    /*
+        use mixin
+        @include flexCenter(row, blue);
+    */
+    // Extendiendo de un estilo en particular
+    @extend header;
+    background: salmon;
+    width: 100% - 20%;
+}
+
+
+  
